@@ -88,15 +88,24 @@ Vim distributions are Vim + custom settings + custom plugins from certain author
 - [EasyMotion](https://github.com/easymotion/vim-easymotion)
 
   提供在文件中快速跳转和定位位置。
-  **\<Leader\>\<Leader\>**: 启动
-  **\<Leader\>\<Leader\>w** : 查找单词的开头
-  **\<Leader\>\<Leader\>f** : 查找单词的字符
-  **\<Leader\>\<Leader\>b** : 向后搜索，跳转到单词的开头
-  **\<Leader\>\<Leader\>e** : 向前搜索，跳转到单词的结尾
-  **\<Leader\>\<Leader\>j** : 向下跳转到行首
-  **\<Leader\>\<Leader\>k** : 向上跳转到行首
-  **\<Leader\>\<Leader\>n** : 向前跳转到最近通过/或者?搜索后的匹配项
-  **\<Leader\>\<Leader\>N** : 向后跳转到最近通过/或者?搜索后的匹配项
+
+  - **\<Leader\>\<Leader\>**: 启动
+
+  - **\<Leader\>\<Leader\>w** : 查找单词的开头
+
+  - **\<Leader\>\<Leader\>f** : 查找单词的字符
+
+  - **\<Leader\>\<Leader\>b** : 向后搜索，跳转到单词的开头
+
+  - **\<Leader\>\<Leader\>e** : 向前搜索，跳转到单词的结尾
+
+  - **\<Leader\>\<Leader\>j** : 向下跳转到行首
+
+  - **\<Leader\>\<Leader\>k** : 向上跳转到行首
+
+  - **\<Leader\>\<Leader\>n** : 向前跳转到最近通过/或者?搜索后的匹配项
+
+  - **\<Leader\>\<Leader\>N** : 向后跳转到最近通过/或者?搜索后的匹配项
 
 - [CamelCaseMotion](https://github.com/henrik/CamelCaseMotion)
 
@@ -134,13 +143,13 @@ Vim distributions are Vim + custom settings + custom plugins from certain author
 
   快速添加，删除，修改 [ ] {} "" '' ，XML tag， HTML tags等。
 
-  cs"'   : "Hello world!"   ->    'Hello world!'
-  cs'<q> : 'Hello world!'   ->    <q>Hello world!<q>
-  ds"    : "Hello world!"   ->    Hello world!
-  ysiw\]  : Hello world!     ->    [Hello] world!
-  cs\]\{   : [Hello] world!   ->    { Hello } world!
-  yssb or yss) : { Hello } world!  ->  ({ Hello } world!)
-  ds{ds) : ({ Hello } world!)  ->  Hello world!
+  - cs"'   : "Hello world!"   ->    'Hello world!'
+  - cs'<q> : 'Hello world!'   ->    <q>Hello world!<q>
+  - ds"    : "Hello world!"   ->    Hello world!
+  - ysiw\]  : Hello world!     ->    [Hello] world!
+  - cs\]\{   : [Hello] world!   ->    { Hello } world!
+  - yssb or yss) : { Hello } world!  ->  ({ Hello } world!)
+  - ds{ds) : ({ Hello } world!)  ->  Hello world!
 
 - [multiple-cursors]()
 
@@ -172,15 +181,17 @@ Vim distributions are Vim + custom settings + custom plugins from certain author
 - [NERDCommenter](https://github.com/scrooloose/nerdcommenter)
 
   注释代码的插件。
-  **,ca** : 在可选的注释方式之间切换，比如C/C++ 的块注释/* */和行注释//
-  **,cc** : 注释当前行
-  **,c<space>**  : 切换注释/非注释状态
-  **,cm** : 注释多行
-  **,ci** : 翻转注释
-  **,cs** : 以”性感”的方式注释
-  **,c$** : 从光标开始注释
-  **,cA** : 在当前行尾添加注释符，并进入Insert模式
-  **,cu** : 取消注释
+
+  - **,ca** : 在可选的注释方式之间切换，比如C/C++ 的块注释/* */和行注释//
+  - **,cc** : 注释当前行
+  - **,c<space>**  : 切换注释/非注释状态
+  - **,cm** : 注释多行
+  - **,ci** : 翻转注释
+  - **,cs** : 以”性感”的方式注释
+  - **,c$** : 从光标开始注释
+  - **,cA** : 在当前行尾添加注释符，并进入Insert模式
+  - **,cu** : 取消注释
+
   Normal模式下，几乎所有命令前面都可以指定行数。Visual模式下执行命令，会对选中的特定区块进行注释/反注释
 
   - [count]<leader>cc |NERDComComment|
@@ -262,20 +273,21 @@ Vim distributions are Vim + custom settings + custom plugins from certain author
 
 - calendar.vim
   代替原生的calendar。
-  **:Calendar**  在新buffer中打开日历视图，默认月视图
+  - **:Calendar**  在新buffer中打开日历视图，默认月视图
 
 - over
   让替换变得可视化。进入替换命令行后，用正常的s替换命令，当输入待替换的字符串时会高亮显示，输入用来替换的字符转时，会在原文中高亮显示在替换字符串后面。
-  **:OverCommandLine** : 进入替换命令行
+  
+  - **:OverCommandLine** : 进入替换命令行
 
 - sneak
 
   通过输入字符快速跳转和定位。普通模式下按 *s\<char\>\<char\>* 来快速跳转到 *\<char\>\<char\>* 处。
-  ; : 跳转到下个匹配处
-  3; : 跳转到第三个匹配处
-  CTRL-O : 回到光标起始位置
-  s<Enter> : 重复上次搜索
-  S : 向后搜索
+  - ; : 跳转到下个匹配处
+  - 3; : 跳转到第三个匹配处
+  - CTRL-O : 回到光标起始位置
+  - s<Enter> : 重复上次搜索
+  - S : 向后搜索
 
 - vim-vertical-move
 

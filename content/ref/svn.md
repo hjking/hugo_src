@@ -61,7 +61,7 @@ svn status --no-ignore
 
 #### 用 Vim 来 diff
 
-首先写一个脚本，比如命名为svndiff：
+首先写一个脚本，比如命名为 **svndiff**：
 
 ~~~ shell
 #!/bin/sh
@@ -95,4 +95,4 @@ diff-cmd = /home/hongjin/bin/svndiff
 ~~~
 
 等号后面是之前新建脚本的路径。
-当再次使用 ~svn diff~ 命令时，就会自动调用上述脚本来比较版本差异了。
+当再次使用 `svn dif` 命令时，就会自动调用上述脚本来比较版本差异了。

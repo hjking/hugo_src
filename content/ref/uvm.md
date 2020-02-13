@@ -4,7 +4,9 @@ date: 2018-11-28T15:04:39+08:00
 draft: false
 ---
 
-## 书籍
+# UVM
+
+## 书籍推荐
 
 - SystemVerilog验证，第二版
 
@@ -67,29 +69,29 @@ draft: false
 ## UVM仿真参数
 ### UVM Compile options
 
-    - +UVM_REPORT_DISABLE_FILE
-    - +UVM_REPORT_DISABLE_LINE
-    - +UVM_REPORT_DISABLE_FILE_LINE
+- +UVM_REPORT_DISABLE_FILE
+- +UVM_REPORT_DISABLE_LINE
+- +UVM_REPORT_DISABLE_FILE_LINE
 
 ### UVM runtime options
 
-    - +UVM_TESTNAME :
-    - +UVM_VERBOSITY :  allows the user to specify the initial verbosity for all components
-    - +UVM_TIMEOUT : allows users to change the global timeout of the UVM framework
-    - +UVM_MAX_QUIT_COUNT : allows users to change max quit count for the report server
-    - +UVM_CONFIG_DB_TRACE : turns on tracing of configuration DB access
-    - +UVM_DUMP_CMDLINE_ARGS
-    - +UVM_OBJECTION_TRACE :  turns on tracing of objection activity
-    - +UVM_PHASE_TRACE : turns on tracing of phase executions
-    - +UVM_RESOURCE_DB_TRACE : turns on tracing of resource DB access
-    - +uvm_set_config_int
-    - +uvm_set_config_string
-    - +uvm_set_inst_override
-    - +uvm_set_type_override
-    - +uvm_set_verbosity
-        +uvm_set_verbosity=<comp>,<id>,<verbosity>,<phase> and +uvm_set_verbosity=<comp>,<id>,<verbosity>,time,<time> allow the users to manipulate the verbosity of specific components at specific phases
-    - +uvm_set_action
-    - +uvm_set_severity
+- +UVM_TESTNAME :
+- +UVM_VERBOSITY :  allows the user to specify the initial verbosity for all components
+- +UVM_TIMEOUT : allows users to change the global timeout of the UVM framework
+- +UVM_MAX_QUIT_COUNT : allows users to change max quit count for the report server
+- +UVM_CONFIG_DB_TRACE : turns on tracing of configuration DB access
+- +UVM_DUMP_CMDLINE_ARGS
+- +UVM_OBJECTION_TRACE :  turns on tracing of objection activity
+- +UVM_PHASE_TRACE : turns on tracing of phase executions
+- +UVM_RESOURCE_DB_TRACE : turns on tracing of resource DB access
+- +uvm_set_config_int
+- +uvm_set_config_string
+- +uvm_set_inst_override
+- +uvm_set_type_override
+- +uvm_set_verbosity
+    +uvm_set_verbosity=<comp>,<id>,<verbosity>,<phase> and +uvm_set_verbosity=<comp>,<id>,<verbosity>,time,<time> allow the users to manipulate the verbosity of specific components at specific phases
+- +uvm_set_action
+- +uvm_set_severity
 
 
 

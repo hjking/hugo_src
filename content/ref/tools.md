@@ -128,33 +128,19 @@ draft: false
 ### Firefox 扩展
 
 
-- []()
-
-- []()
-
-- []()
-
-- []()
-
-- []()
-
 ### Chrome 扩展
 
 - [SwitchyOmega](https://chrome.google.com/webstore/detail/padekgcemlokbadohgkifijomclgjgif)
 
 - [tampermonkey](https://www.tampermonkey.net/)
 
-- [Web Clipper]
+- [Web Clipper](https://clipper.website/)
 
 - [uBlock Origin](https://chrome.google.com/webstore/detail/cjpalhdlnbpafiamejdnhcphjbkeiagm)
 
 - [Black Menu for Google](https://apps.jeurissen.co/black-menu-for-google)
 
-- []()
 
-- []()
-
-- []()
 ## 在线应用
 
 ### 团队协作平台
@@ -182,7 +168,7 @@ draft: false
 
 ### 笔记
 
-- [OneNote]()
-- [Evernote]()
-- [有道笔记]()
-- [为知笔记]()
+- [OneNote](https://www.onenote.com/)
+- [Evernote](https://www.evernote.com/)
+- [有道笔记](http://note.youdao.com/)
+- [为知笔记](https://www.wiz.cn)
