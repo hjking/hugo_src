@@ -1,6 +1,6 @@
 ---
 comments: true
-tags: ["Emacs", "trello", "tool", "org"]
+tags: ["Emacs", "trello", "org"]
 categories: ["tool"]
 title: "使用org-trello管理Trello"
 date: 2014-12-26T15:05:02+08:00

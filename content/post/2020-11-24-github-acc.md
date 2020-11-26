@@ -1,7 +1,7 @@
 ---
 comments: true
 tags: ["github"]
-categories: ["github"]
+categories: ["tool"]
 title: "加速 GitHub 的访问速度"
 date: 2020-11-24T18:52:02+08:00
 ---
